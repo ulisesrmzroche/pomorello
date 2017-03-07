@@ -1,0 +1,30 @@
+{
+  "name": "trello-pomodoro",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./scripts/build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ulisesrmzroche/trello-pomodoro.git"
+  },
+  "keywords": [
+    "trello",
+    "productivity",
+    "pomodoro"
+  ],
+  "author": "ulisesrmzroche",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ulisesrmzroche/trello-pomodoro/issues"
+  },
+  "homepage": "https://github.com/ulisesrmzroche/trello-pomodoro#readme",
+  "devDependencies": {
+    "cpy": "^5.0.0",
+    "del": "^2.2.2",
+    "html-webpack-plugin": "^2.28.0",
+    "mkdirp": "^0.5.1"
+  }
+}
