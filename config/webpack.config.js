@@ -20,6 +20,7 @@ module.exports = {
       compress: {warnings: false},
     }),
     new HtmlWebpackPlugin({
+      template: `${ROOT_PATH}/public/index.html`,
       inject: 'body',
       title: 'Ulises Ramirez-Roche | Software Engineer. JavaScript Enthusiast.',
     }),
@@ -27,10 +28,6 @@ module.exports = {
       'process.env.NODE_ENV': `"${process.env.NODE_ENV}"`,
     }),
     new webpack.NoEmitOnErrorsPlugin(),
-    new webpack.optimize.CommonsChunkPlugin({
-      names: ['vendor', 'manifest'],
-      minChunks: Infinity,
-    }),
   ]),
   // TODO: Setup javascript loader
   module: {
